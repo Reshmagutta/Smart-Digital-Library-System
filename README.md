@@ -95,12 +95,3 @@ npm run preview  # Preview production build
 * Modular and reusable components
 * Easy to extend for backend integration
 
----
-
-## Screenshots
-
-<img width="1896" height="1002" alt="Screenshot 2026-03-25 201731" src="https://github.com/user-attachments/assets/79a2e1a0-a7de-4682-93da-ba0cb4c9b134" />
-<img width="1896" height="993" alt="Screenshot 2026-03-25 201808" src="https://github.com/user-attachments/assets/19c68977-40bc-49f9-970e-2e11e84fe29c" />
-<img width="1918" height="995" alt="Screenshot 2026-03-25 202736" src="https://github.com/user-attachments/assets/c2713420-07b9-48fc-bf6c-3cf2c03a6a59" />
-
-
