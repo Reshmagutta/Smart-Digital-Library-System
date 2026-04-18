@@ -25,7 +25,7 @@ A modern **Smart Library Management System** built using **React, Vite, and Tail
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -42,9 +42,9 @@ vite.config.js        # Vite configuration
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️.Clone the repository
 
 ```
 git clone https://github.com/your-username/smart-library-system.git
@@ -53,7 +53,7 @@ cd smart-library-system
 
 ---
 
-### 2️⃣ Install dependencies
+### 2️.Install dependencies
 
 ```
 npm install
@@ -61,7 +61,7 @@ npm install
 
 ---
 
-### 3️⃣ Run the development server
+### 3️.Run the development server
 
 ```
 npm run dev
@@ -69,7 +69,7 @@ npm run dev
 
 ---
 
-### 4️⃣ Open in browser
+### 4️.Open in browser
 
 ```
 http://localhost:5173
@@ -77,7 +77,7 @@ http://localhost:5173
 
 ---
 
-## 🧪 Available Scripts
+## Available Scripts
 
 ```
 npm run dev      # Start development server
@@ -97,24 +97,10 @@ npm run preview  # Preview production build
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <img width="1896" height="1002" alt="Screenshot 2026-03-25 201731" src="https://github.com/user-attachments/assets/79a2e1a0-a7de-4682-93da-ba0cb4c9b134" />
 <img width="1896" height="993" alt="Screenshot 2026-03-25 201808" src="https://github.com/user-attachments/assets/19c68977-40bc-49f9-970e-2e11e84fe29c" />
 <img width="1918" height="995" alt="Screenshot 2026-03-25 202736" src="https://github.com/user-attachments/assets/c2713420-07b9-48fc-bf6c-3cf2c03a6a59" />
 
-
-
-
-
-
----
-
-## 🔧 Future Enhancements
-
-* Backend integration (Node.js / Spring Boot)
-* Book issue/return system
-* Notifications system
-* Role-based access (Admin/User)
-* Analytics dashboard
 
