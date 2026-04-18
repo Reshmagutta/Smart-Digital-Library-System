@@ -1,0 +1,92 @@
+{
+  "name": "Book",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Book title"
+    },
+    "author": {
+      "type": "string",
+      "description": "Author name"
+    },
+    "isbn": {
+      "type": "string",
+      "description": "ISBN number"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Fiction",
+        "Non-Fiction",
+        "Science",
+        "Technology",
+        "History",
+        "Biography",
+        "Self-Help",
+        "Education",
+        "Literature",
+        "Reference"
+      ],
+      "description": "Book category"
+    },
+    "quantity": {
+      "type": "number",
+      "default": 1,
+      "description": "Total copies available"
+    },
+    "available_quantity": {
+      "type": "number",
+      "default": 1,
+      "description": "Currently available copies"
+    },
+    "rfid_tag": {
+      "type": "string",
+      "description": "Unique RFID tag ID"
+    },
+    "shelf_location": {
+      "type": "string",
+      "description": "Physical shelf location"
+    },
+    "cover_image": {
+      "type": "string",
+      "description": "Book cover image URL"
+    },
+    "description": {
+      "type": "string",
+      "description": "Book description"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Publisher name"
+    },
+    "publish_year": {
+      "type": "number",
+      "description": "Year of publication"
+    },
+    "pages": {
+      "type": "number",
+      "description": "Number of pages"
+    },
+    "borrow_count": {
+      "type": "number",
+      "default": 0,
+      "description": "Total times borrowed"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Available",
+        "Low Stock",
+        "Out of Stock"
+      ],
+      "default": "Available"
+    }
+  },
+  "required": [
+    "title",
+    "author",
+    "isbn",
+    "category"
+  ]
+}

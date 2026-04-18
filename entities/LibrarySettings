@@ -1,0 +1,31 @@
+{
+  "name": "LibrarySettings",
+  "type": "object",
+  "properties": {
+    "fine_per_day": {
+      "type": "number",
+      "default": 0.5,
+      "description": "Fine amount per day overdue"
+    },
+    "max_borrow_days": {
+      "type": "number",
+      "default": 14,
+      "description": "Maximum days a book can be borrowed"
+    },
+    "max_books_per_user": {
+      "type": "number",
+      "default": 5,
+      "description": "Maximum books a user can borrow"
+    },
+    "library_name": {
+      "type": "string",
+      "default": "Smart Library"
+    },
+    "reminder_days_before": {
+      "type": "number",
+      "default": 2,
+      "description": "Days before due date to send reminder"
+    }
+  },
+  "required": []
+}

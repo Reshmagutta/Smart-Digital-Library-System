@@ -1,0 +1,70 @@
+{
+  "name": "Transaction",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "User ID who borrowed"
+    },
+    "user_email": {
+      "type": "string",
+      "description": "User email"
+    },
+    "user_name": {
+      "type": "string",
+      "description": "User full name"
+    },
+    "book_id": {
+      "type": "string",
+      "description": "Book ID"
+    },
+    "book_title": {
+      "type": "string",
+      "description": "Book title"
+    },
+    "book_rfid": {
+      "type": "string",
+      "description": "Book RFID tag"
+    },
+    "issue_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date when book was issued"
+    },
+    "due_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Return due date"
+    },
+    "return_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Actual return date"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Issued",
+        "Returned",
+        "Overdue",
+        "Lost"
+      ],
+      "default": "Issued"
+    },
+    "fine_amount": {
+      "type": "number",
+      "default": 0,
+      "description": "Fine amount in dollars"
+    },
+    "fine_paid": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "user_id",
+    "book_id",
+    "issue_date",
+    "due_date"
+  ]
+}

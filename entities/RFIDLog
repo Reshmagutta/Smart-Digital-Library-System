@@ -1,0 +1,41 @@
+{
+  "name": "RFIDLog",
+  "type": "object",
+  "properties": {
+    "rfid_tag": {
+      "type": "string",
+      "description": "RFID tag scanned"
+    },
+    "book_id": {
+      "type": "string"
+    },
+    "book_title": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "Scan",
+        "Issue",
+        "Return",
+        "Inventory"
+      ],
+      "description": "Type of RFID action"
+    },
+    "user_email": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "location": {
+      "type": "string",
+      "description": "Scanner location"
+    }
+  },
+  "required": [
+    "rfid_tag",
+    "action"
+  ]
+}

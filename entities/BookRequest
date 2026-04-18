@@ -1,0 +1,48 @@
+{
+  "name": "BookRequest",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Requesting user ID"
+    },
+    "user_email": {
+      "type": "string",
+      "description": "User email"
+    },
+    "user_name": {
+      "type": "string",
+      "description": "User full name"
+    },
+    "book_id": {
+      "type": "string",
+      "description": "Requested book ID"
+    },
+    "book_title": {
+      "type": "string",
+      "description": "Book title"
+    },
+    "request_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Pending",
+        "Approved",
+        "Rejected",
+        "Cancelled"
+      ],
+      "default": "Pending"
+    },
+    "admin_notes": {
+      "type": "string",
+      "description": "Notes from admin"
+    }
+  },
+  "required": [
+    "user_id",
+    "book_id"
+  ]
+}
